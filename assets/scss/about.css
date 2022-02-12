@@ -20,13 +20,13 @@
 }
 
 .about-picture {
-  width: 300px;
-  height: 300px;
-  border-radius: 60%px;
+  width: 250px;
+  height: 250px;
+  border-radius: 60%;
   border: 1px solid #181f2b;
-  -webkit-box-shadow: 0px 0px 20px 0px #181f2b;
-          box-shadow: 0px 0px 20px 0px #181f2b;
   margin: 2em 0;
+  -webkit-animation: focusZoom 3s infinite;
+          animation: focusZoom 3s infinite;
 }
 
 .about-name {
@@ -45,5 +45,35 @@
   color: white;
   text-align: center;
   font-size: 1.3em;
+}
+
+@-webkit-keyframes focusZoom {
+  0% {
+    -webkit-box-shadow: 0px 0px 20px 0px #181f2b;
+            box-shadow: 0px 0px 20px 0px #181f2b;
+  }
+  50% {
+    -webkit-box-shadow: 0px 0px 50px 10px #181f2b;
+            box-shadow: 0px 0px 50px 10px #181f2b;
+  }
+  100% {
+    -webkit-box-shadow: 0px 0px 20px 0px #181f2b;
+            box-shadow: 0px 0px 20px 0px #181f2b;
+  }
+}
+
+@keyframes focusZoom {
+  0% {
+    -webkit-box-shadow: 0px 0px 20px 0px #181f2b;
+            box-shadow: 0px 0px 20px 0px #181f2b;
+  }
+  50% {
+    -webkit-box-shadow: 0px 0px 50px 10px #181f2b;
+            box-shadow: 0px 0px 50px 10px #181f2b;
+  }
+  100% {
+    -webkit-box-shadow: 0px 0px 20px 0px #181f2b;
+            box-shadow: 0px 0px 20px 0px #181f2b;
+  }
 }
 /*# sourceMappingURL=about.css.map */
