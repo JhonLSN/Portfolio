@@ -14,7 +14,27 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   color: white;
+}
+
+.about-name {
+  font-size: 2em;
+}
+
+.about-title {
+  font-size: 2em;
+  color: #65e2d9;
+}
+
+.about-paragraph {
+  width: 60%;
+  color: white;
+  text-align: justify;
+  font-size: 1.3em;
+}
+
+.about-svgCurvy {
+  width: 100%;
 }
 /*# sourceMappingURL=about.css.map */

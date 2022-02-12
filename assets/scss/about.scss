@@ -4,7 +4,26 @@
   align-content: center;
   justify-content: center;
   align-items: center;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   color: hsl(0, 0%, 100%);
 
+  &-name {
+    font-size: 2em;
+  }
+
+  &-title {
+    font-size: 2em;
+    color: hsl(176, 68%, 64%);
+  }
+
+  &-paragraph {
+    width: 60%;
+    color: white;
+    text-align: justify;
+    font-size: 1.3em;
+  }
+
+  &-svgCurvy {
+    width: 100%;
+  }
 }
