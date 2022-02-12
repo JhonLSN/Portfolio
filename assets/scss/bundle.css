@@ -168,16 +168,21 @@ table {
 .about-title {
   font-size: 2em;
   color: #65e2d9;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
 }
 
 .about-paragraph {
   width: 60%;
   color: white;
-  text-align: justify;
+  text-align: center;
   font-size: 1.3em;
 }
 
 .about-svgCurvy {
   width: 100%;
+  top: -50px;
+  position: relative;
+  z-index: -1;
 }
 /*# sourceMappingURL=bundle.css.map */
