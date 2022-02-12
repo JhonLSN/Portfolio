@@ -39,7 +39,7 @@
         transition: all ease .4s;
         
         &:hover {
-          color: hsl(176, 68%, 64%);
+          color: $cyan-color;
           transition: all ease .4s;
 
           &::before {
@@ -54,7 +54,7 @@
           height: 2px;
           left: 50%;
           bottom: -2px;
-          background-color: hsl(176, 68%, 64%);
+          background-color: $cyan-color;
           transform: translateX(-50%);
           transition: all ease .4s;
         }
