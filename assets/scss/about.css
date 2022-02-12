@@ -19,6 +19,16 @@
   background: url(../img/bg-curvy-desktop.svg) bottom no-repeat;
 }
 
+.about-picture {
+  width: 300px;
+  height: 300px;
+  border-radius: 60%px;
+  border: 1px solid #181f2b;
+  -webkit-box-shadow: 0px 0px 20px 0px #181f2b;
+          box-shadow: 0px 0px 20px 0px #181f2b;
+  margin: 2em 0;
+}
+
 .about-name {
   font-size: 2em;
 }
