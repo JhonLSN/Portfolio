@@ -159,6 +159,7 @@ table {
           align-items: center;
   font-family: "Raleway", sans-serif;
   color: white;
+  background: url(../img/bg-curvy-desktop.svg) bottom no-repeat;
 }
 
 .about-name {
@@ -177,12 +178,5 @@ table {
   color: white;
   text-align: center;
   font-size: 1.3em;
-}
-
-.about-svgCurvy {
-  width: 100%;
-  top: -50px;
-  position: relative;
-  z-index: -1;
 }
 /*# sourceMappingURL=bundle.css.map */

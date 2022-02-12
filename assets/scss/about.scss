@@ -6,6 +6,7 @@
   align-items: center;
   font-family: "Raleway", sans-serif;
   color: hsl(0, 0%, 100%);
+  background: url(../img/bg-curvy-desktop.svg) bottom no-repeat;
 
   &-name {
     font-size: 2em;
@@ -23,12 +24,5 @@
     color: white;
     text-align: center;
     font-size: 1.3em;
-  }
-
-  &-svgCurvy {
-    width: 100%;
-    top: -50px;
-    position: relative;
-    z-index: -1;
   }
 }
