@@ -34,6 +34,49 @@
     text-align: center;
     font-size: 1.3em;
   }
+
+  &-contact {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+
+    &-linkedin {
+      background: #65e2d9;
+      border: 1px solid #65e2d9;
+      color: #181f2b;
+      text-decoration: none;
+      padding: 1em;
+      border-radius: 10px;
+      margin-right: 20px;      
+      transition: all ease .6s;
+
+      &:hover {
+        color: #65e2d9;
+        border: 1px solid #65e2d9;
+        background: #181f2b;
+        transition: all ease .6s;
+      }
+    }
+
+    &-whatsapp {
+      background: #1c2431;      
+      border: 1px solid #1c2431;
+      color: #65e2d9;
+      text-decoration: none;
+      padding: 1em;
+      border-radius: 10px;
+      transition: all ease .6s;
+
+      &:hover {
+        color: #65e2d9;
+        border: 1px solid #65e2d9;
+        transition: all ease .6s;
+      }
+    }
+  }
 }
 
 @keyframes focusZoom {
