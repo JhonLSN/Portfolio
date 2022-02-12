@@ -110,7 +110,34 @@ table {
 }
 
 .header__nav__menu-anchor {
+  position: relative;
   color: white;
   text-decoration: none;
+  -webkit-transition: all ease .4s;
+  transition: all ease .4s;
+}
+
+.header__nav__menu-anchor:hover {
+  color: #65e2d9;
+  -webkit-transition: all ease .4s;
+  transition: all ease .4s;
+}
+
+.header__nav__menu-anchor:hover::before {
+  width: 100%;
+}
+
+.header__nav__menu-anchor::before {
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 2px;
+  left: 50%;
+  bottom: -2px;
+  background-color: #65e2d9;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  -webkit-transition: all ease .4s;
+  transition: all ease .4s;
 }
 /*# sourceMappingURL=bundle.css.map */
