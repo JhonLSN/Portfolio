@@ -65,6 +65,7 @@ table {
       -ms-flex-pack: justify;
           justify-content: space-between;
   font-family: 'Raleway', sans-serif;
+  padding: 20px;
 }
 
 .header-brand {
@@ -98,6 +99,14 @@ table {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.header__nav__menu li {
+  margin-right: 30px;
+}
+
+.header__nav__menu li:last-child {
+  margin-right: 0;
 }
 
 .header__nav__menu-anchor {

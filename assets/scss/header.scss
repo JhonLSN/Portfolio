@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: space-between;
   font-family: 'Raleway', sans-serif;
+  padding: 20px;
 
   &-brand {
     font-size: 1.5em;
@@ -22,6 +23,14 @@
       display: flex;
       align-items: center;
       justify-content: center;
+
+      & li {
+        margin-right: 30px;
+
+        &:last-child{
+          margin-right: 0;
+        }
+      }
 
       &-anchor {
         color: hsl(0, 0%, 100%);
