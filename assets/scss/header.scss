@@ -7,7 +7,7 @@
 
   &-brand {
     font-size: 1.5em;
-    color: hsl(0, 0%, 100%);
+    color: $white;
   }
 
   &__nav {
@@ -34,7 +34,7 @@
 
       &-anchor {
         position: relative;
-        color: hsl(0, 0%, 100%);
+        color: $white;
         text-decoration: none;
         transition: all ease .4s;
         

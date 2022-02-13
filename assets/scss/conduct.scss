@@ -3,13 +3,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border-top: 1px solid #65e2d912;
+  border-top: 1px solid $row;
   font-family: "Raleway", sans-serif;
   background-color: $secondary-color;
 
   &-title {
     font-size: 2em;
-    color: #65e2d9;
+    color: $cyan-color;
     margin-top: 2em;
   }
 
@@ -28,7 +28,7 @@
       width: 40%;
       padding: 50px;
       margin: 10px;
-      color: #fff;
+      color: $white;
 
       & h4 {
         font-size: 1.3em;

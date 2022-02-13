@@ -183,13 +183,6 @@ table {
   font-size: 1.2em;
 }
 
-.home-title {
-  font-size: 2em;
-  color: #65e2d9;
-  margin-top: 1em;
-  margin-bottom: 0.5em;
-}
-
 .home-contact {
   width: 100%;
   display: -webkit-box;
@@ -290,7 +283,7 @@ table {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  border-top: 1px solid #65e2d912;
+  border-top: 1px solid rgba(101, 226, 217, 0.071);
   font-family: "Raleway", sans-serif;
   background-color: #181f2a;
 }
@@ -333,7 +326,7 @@ table {
   width: 40%;
   padding: 50px;
   margin: 10px;
-  color: #fff;
+  color: white;
 }
 
 .conduct-wrapper__card h4 {
@@ -357,7 +350,7 @@ table {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  border-top: 1px solid #65e2d912;
+  border-top: 1px solid rgba(101, 226, 217, 0.071);
   font-family: "Raleway", sans-serif;
   background-color: #181f2a;
   padding: 2em 4em;
