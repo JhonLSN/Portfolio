@@ -1,0 +1,46 @@
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #65e2d912;
+  font-family: "Raleway", sans-serif;
+  background-color: $secondary-color;
+  padding: 2em 4em;
+
+  &-description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & img {
+      width: auto;
+      height: 460px;
+    }
+
+    &__textBox {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+      & h3 {
+        font-size: 2em;
+        color: #65e2d9;
+        margin-top: 2em;
+        margin-bottom: 1em;
+      }
+
+      & p {
+        color: white;
+        margin-bottom: 20px;
+        text-align: justify;
+        width: 80%;
+        line-height: 25px;
+      }
+
+      & a {
+        
+      }
+    }
+  }
+}
