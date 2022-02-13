@@ -408,4 +408,50 @@ table {
   text-decoration: none;
   border-bottom: 1px solid #65e2d9;
 }
+
+.skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-top: 1px solid rgba(101, 226, 217, 0.071);
+  font-family: "Raleway", sans-serif;
+  background-color: #181f2a;
+  padding: 2em 0;
+}
+
+.skills-title {
+  font-size: 2em;
+  color: #65e2d9;
+  margin-bottom: 1em;
+}
+
+.skills-tools {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 80%;
+}
+
+.skills-tools__card a {
+  padding: 1.5em;
+  background: #1c2431;
+  color: #181f2a;
+  font-size: 1em;
+}
 /*# sourceMappingURL=bundle.css.map */
