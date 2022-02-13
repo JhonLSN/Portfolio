@@ -141,7 +141,7 @@ table {
   transition: all ease .4s;
 }
 
-.about {
+.home {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -160,9 +160,10 @@ table {
   font-family: "Raleway", sans-serif;
   color: white;
   background: url(../img/bg-curvy-desktop.svg) bottom no-repeat;
+  background-size: 100% 270px;
 }
 
-.about-picture {
+.home-picture {
   width: 250px;
   height: 250px;
   border-radius: 60%;
@@ -172,25 +173,31 @@ table {
           animation: focusZoom 3s infinite;
 }
 
-.about-name {
+.home-name {
   font-size: 2em;
 }
 
-.about-title {
+.home-dev {
+  color: #65e2d9;
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+.home-title {
   font-size: 2em;
   color: #65e2d9;
   margin-top: 1em;
   margin-bottom: 0.5em;
 }
 
-.about-paragraph {
+.home-paragraph {
   width: 60%;
   color: white;
   text-align: center;
   font-size: 1.3em;
 }
 
-.about-contact {
+.home-contact {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -205,10 +212,10 @@ table {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 2em;
+  margin: 3em 0;
 }
 
-.about-contact-linkedin {
+.home-contact-linkedin {
   background: #65e2d9;
   border: 1px solid #65e2d9;
   color: #181f2a;
@@ -220,7 +227,7 @@ table {
   transition: all ease .6s;
 }
 
-.about-contact-linkedin:hover {
+.home-contact-linkedin:hover {
   color: #65e2d9;
   border: 1px solid #65e2d9;
   background: #181f2a;
@@ -228,7 +235,7 @@ table {
   transition: all ease .6s;
 }
 
-.about-contact-whatsapp {
+.home-contact-whatsapp {
   background: #1c2431;
   border: 1px solid #1c2431;
   color: #65e2d9;
@@ -239,7 +246,7 @@ table {
   transition: all ease .6s;
 }
 
-.about-contact-whatsapp:hover {
+.home-contact-whatsapp:hover {
   color: #65e2d9;
   border: 1px solid #65e2d9;
   -webkit-transition: all ease .6s;
@@ -290,6 +297,7 @@ table {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  border-top: 1px solid #65e2d912;
   font-family: "Raleway", sans-serif;
   background-color: #181f2a;
 }
@@ -297,8 +305,7 @@ table {
 .conduct-title {
   font-size: 2em;
   color: #65e2d9;
-  margin-top: 1em;
-  margin-bottom: 0.5em;
+  margin-top: 2em;
 }
 
 .conduct-wrapper {
@@ -330,9 +337,20 @@ table {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 30%;
-  background: blueviolet;
-  padding: 47px;
+  width: 40%;
+  padding: 50px;
   margin: 10px;
+  color: #fff;
+}
+
+.conduct-wrapper__card h4 {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.conduct-wrapper__card p {
+  text-align: center;
+  width: 70%;
 }
 /*# sourceMappingURL=bundle.css.map */
