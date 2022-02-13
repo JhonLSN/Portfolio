@@ -28,23 +28,47 @@
       padding: 20px 50px;
       margin: 10px;
       cursor: pointer;
-      transition: all ease .4s;
+      transition: all ease 0.4s;
 
       &:hover {
         border: 1px solid $cyan-color;
-        transition: all ease .4s;
+        transition: all ease 0.4s;
 
         i {
           color: $cyan-color;
-          transition: all ease .4s;
+          transition: all ease 0.4s;
         }
       }
 
       & i {
         color: $secondary-color;
         font-size: 6em;
-        transition: all ease .4s;
+        transition: all ease 0.4s;
       }
+    }
+
+    & .javascritp {
+      padding: 20px 44px;
+    }
+
+    & .sass {
+      padding: 20px 26px;
+    }
+
+    & .bootstrap {
+      padding: 20px 32px;
+    }
+
+    & .github {
+      padding: 20px 32px;
+    }
+
+    & .git {
+      padding: 20px 44px;
+    }
+
+    & .linux {
+      padding: 20px 44px;
     }
   }
 }

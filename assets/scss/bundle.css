@@ -457,26 +457,50 @@ table {
   padding: 20px 50px;
   margin: 10px;
   cursor: pointer;
-  -webkit-transition: all ease .4s;
-  transition: all ease .4s;
+  -webkit-transition: all ease 0.4s;
+  transition: all ease 0.4s;
 }
 
 .skills-tools__card:hover {
   border: 1px solid #65e2d9;
-  -webkit-transition: all ease .4s;
-  transition: all ease .4s;
+  -webkit-transition: all ease 0.4s;
+  transition: all ease 0.4s;
 }
 
 .skills-tools__card:hover i {
   color: #65e2d9;
-  -webkit-transition: all ease .4s;
-  transition: all ease .4s;
+  -webkit-transition: all ease 0.4s;
+  transition: all ease 0.4s;
 }
 
 .skills-tools__card i {
   color: #181f2a;
   font-size: 6em;
-  -webkit-transition: all ease .4s;
-  transition: all ease .4s;
+  -webkit-transition: all ease 0.4s;
+  transition: all ease 0.4s;
+}
+
+.skills-tools .javascritp {
+  padding: 20px 44px;
+}
+
+.skills-tools .sass {
+  padding: 20px 26px;
+}
+
+.skills-tools .bootstrap {
+  padding: 20px 32px;
+}
+
+.skills-tools .github {
+  padding: 20px 32px;
+}
+
+.skills-tools .git {
+  padding: 20px 44px;
+}
+
+.skills-tools .linux {
+  padding: 20px 44px;
 }
 /*# sourceMappingURL=bundle.css.map */
