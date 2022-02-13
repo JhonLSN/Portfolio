@@ -439,19 +439,44 @@ table {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 80%;
 }
 
-.skills-tools__card a {
-  padding: 1.5em;
+.skills-tools__card {
   background: #1c2431;
+  border-radius: 10px;
+  border: 1px solid #1c2431;
+  padding: 20px 50px;
+  margin: 10px;
+  cursor: pointer;
+  -webkit-transition: all ease .4s;
+  transition: all ease .4s;
+}
+
+.skills-tools__card:hover {
+  border: 1px solid #65e2d9;
+  -webkit-transition: all ease .4s;
+  transition: all ease .4s;
+}
+
+.skills-tools__card:hover i {
+  color: #65e2d9;
+  -webkit-transition: all ease .4s;
+  transition: all ease .4s;
+}
+
+.skills-tools__card i {
   color: #181f2a;
-  font-size: 1em;
+  font-size: 6em;
+  -webkit-transition: all ease .4s;
+  transition: all ease .4s;
 }
 /*# sourceMappingURL=bundle.css.map */

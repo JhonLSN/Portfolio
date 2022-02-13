@@ -16,16 +16,34 @@
 
   &-tools {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     width: 80%;
 
     &__card {
-      & a {
-        padding: 1.5em;
-        background: $primary-color;
+      background: $primary-color;
+      border-radius: 10px;
+      border: 1px solid $primary-color;
+      padding: 20px 50px;
+      margin: 10px;
+      cursor: pointer;
+      transition: all ease .4s;
+
+      &:hover {
+        border: 1px solid $cyan-color;
+        transition: all ease .4s;
+
+        i {
+          color: $cyan-color;
+          transition: all ease .4s;
+        }
+      }
+
+      & i {
         color: $secondary-color;
-        font-size: 1em;
+        font-size: 6em;
+        transition: all ease .4s;
       }
     }
   }
