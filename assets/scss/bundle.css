@@ -399,7 +399,6 @@ table {
 .about-description__textBox h3 {
   font-size: 2em;
   color: #65e2d9;
-  margin-top: 2em;
   margin-bottom: 1em;
 }
 
@@ -409,5 +408,11 @@ table {
   text-align: justify;
   width: 80%;
   line-height: 25px;
+}
+
+.about-description__textBox a {
+  color: #65e2d9;
+  text-decoration: none;
+  border-bottom: 1px solid #65e2d9;
 }
 /*# sourceMappingURL=bundle.css.map */

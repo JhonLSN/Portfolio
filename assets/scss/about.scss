@@ -26,7 +26,6 @@
       & h3 {
         font-size: 2em;
         color: #65e2d9;
-        margin-top: 2em;
         margin-bottom: 1em;
       }
 
@@ -39,7 +38,9 @@
       }
 
       & a {
-        
+        color: #65e2d9;
+        text-decoration: none;
+        border-bottom: 1px solid #65e2d9;
       }
     }
   }
