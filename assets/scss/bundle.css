@@ -532,4 +532,35 @@ table {
 .projects-carousel {
   width: 70%;
 }
+
+.projects-carousel .item {
+  background: #1c2431;
+  border: 1px solid cyan;
+  border-radius: 5px;
+  padding: 20px;
+  color: white;
+  width: 400px;
+}
+
+.projects-carousel .item i {
+  font-size: 2.5em;
+  color: cyan;
+}
+
+.projects-carousel .item h5 {
+  font-size: 1.5em;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+
+.projects-carousel .item p {
+  margin-bottom: 1em;
+}
+
+.projects-carousel .item a {
+  color: #65e2d9;
+  text-decoration: none;
+  border-bottom: 1px solid #65e2d9;
+  margin-top: 0.5em;
+}
 /*# sourceMappingURL=bundle.css.map */

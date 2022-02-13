@@ -1,16 +1,10 @@
 $('.owl-carousel').owlCarousel({
-  loop:false,
   margin:10,
+  loop:false,
+  autoWidth:true,
   nav:false,
-  responsive:{
-      0:{
-          items:1
-      },
-      600:{
-          items:3
-      },
-      1000:{
-          items:5
-      }
-  }
+  dots:false,
+  items:4
 })
+
+// https://owlcarousel2.github.io/OwlCarousel2/docs/api-options.html
