@@ -198,7 +198,7 @@ table {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 3em 0;
+  margin-top: 3em;
 }
 
 .home-contact-linkedin {
@@ -283,7 +283,6 @@ table {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  border-top: 1px solid rgba(101, 226, 217, 0.071);
   font-family: "Raleway", sans-serif;
   background-color: #181f2a;
 }
@@ -444,10 +443,10 @@ table {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 80%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 65%;
 }
 
 .skills-tools__card {
@@ -493,7 +492,7 @@ table {
 }
 
 .skills-tools .github {
-  padding: 20px 32px;
+  padding: 20px 39px;
 }
 
 .skills-tools .git {
