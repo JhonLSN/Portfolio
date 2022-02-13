@@ -1,0 +1,34 @@
+.conduct {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Raleway", sans-serif;
+  background-color: $secondary-color;
+
+  &-title {
+    font-size: 2em;
+    color: #65e2d9;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+  }
+
+  &-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    &__card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 30%;
+      background: blueviolet;
+      padding: 47px;
+      margin: 10px;
+    }
+  }
+}
