@@ -271,6 +271,7 @@ table {
 @media screen and (max-width: 760px) {
   .home {
     background: url(../img/bg-curvy-mobile.svg) bottom no-repeat;
+    background-size: contain;
   }
   .home-picture {
     width: 200px;
