@@ -494,9 +494,15 @@ table {
 }
 
 @media screen and (max-width: 760px) {
+  .about {
+    padding: 2em;
+  }
   .about-description img {
     width: 100%;
     height: auto;
+  }
+  .about-description__textBox p {
+    width: 100%;
   }
 }
 

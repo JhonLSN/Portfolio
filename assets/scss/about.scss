@@ -48,10 +48,18 @@
 
 @media screen and (max-width: 760px) {
   .about {
+    padding: 2em;
+
     &-description {
       & img {
         width: 100%;
         height: auto;
+      }
+
+      &__textBox {
+        & p {
+          width: 100%;
+        }
       }
     }
   }
