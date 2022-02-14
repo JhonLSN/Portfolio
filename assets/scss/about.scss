@@ -45,3 +45,16 @@
     }
   }
 }
+
+@media screen and (min-width: 1700px) {
+  .about {
+    &-description {
+      width: 80%;
+      &__textBox {
+        & p {
+          width: 70%;
+        }
+      }
+    }
+  }
+}
