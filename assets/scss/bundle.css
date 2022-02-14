@@ -469,7 +469,7 @@ table {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 65%;
+  width: 60%;
 }
 
 .skills-tools__card {
@@ -554,7 +554,7 @@ table {
 }
 
 .projects-carousel {
-  width: 82%;
+  width: 81%;
 }
 
 .projects-carousel .item {
