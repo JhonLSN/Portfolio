@@ -45,7 +45,15 @@
 }
 
 @media screen and (max-width: 760px) {
-  
+  .conduct {
+    &-wrapper {
+      flex-direction: column;
+
+      &__card {
+        width: 100%;
+      }
+    }
+  }
 }
 
 @media screen and (min-width: 1700px) {
