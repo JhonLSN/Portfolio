@@ -754,7 +754,7 @@ table {
 
 .projects-carousel .item {
   background: #1c2431;
-  border: 1px solid cyan;
+  border: 1px solid #65e2d9;
   border-radius: 5px;
   padding: 20px;
   color: white;
@@ -763,7 +763,7 @@ table {
 
 .projects-carousel .item i {
   font-size: 2.5em;
-  color: cyan;
+  color: #65e2d9;
 }
 
 .projects-carousel .item h5 {

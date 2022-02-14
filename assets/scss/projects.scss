@@ -19,16 +19,16 @@
     width: 81%;
 
     & .item {
-      background: #1c2431;
-      border: 1px solid cyan;
+      background: $primary-color;
+      border: 1px solid $cyan-color;
       border-radius: 5px;
       padding: 20px;
-      color: white;
+      color: $white;
       width: 400px;
 
       & i {
         font-size: 2.5em;
-        color: cyan;
+        color: $cyan-color;
       }
 
       & h5 {
@@ -43,9 +43,9 @@
       }
 
       & a {
-        color: #65e2d9;
+        color: $cyan-color;
         text-decoration: none;
-        border-bottom: 1px solid #65e2d9;
+        border-bottom: 1px solid $cyan-color;
         margin-top: 0.5em;
       }
     }

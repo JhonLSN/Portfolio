@@ -1,4 +1,4 @@
-// Smooth scroll for internal link
+// Smooth scroll for internal link with JQuery
 $('nav a').click(function(e){
 	e.preventDefault();
 	var id = $(this).attr('href'),
