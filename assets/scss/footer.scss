@@ -1,0 +1,11 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Raleway", sans-serif;
+  background-color: $footer-color;
+  padding-top: 15em;
+  padding-bottom: 2em;
+
+}

@@ -584,9 +584,11 @@ table {
       -ms-flex-pack: center;
           justify-content: center;
   position: absolute;
-  padding: 4em;
-  bottom: 0;
+  padding: 2.5em;
+  bottom: -160px;
   left: 50%;
+  width: 50%;
+  border-radius: 10px;
   color: white;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
@@ -598,6 +600,10 @@ table {
   font-size: 2em;
   color: #65e2d9;
   margin-bottom: 1em;
+}
+
+.contact p {
+  line-height: 25px;
 }
 
 .contact-connection {
@@ -638,5 +644,25 @@ table {
   border: 1px solid #65e2d9;
   -webkit-transition: all ease 0.6s;
   transition: all ease 0.6s;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Raleway", sans-serif;
+  background-color: #0b1523;
+  padding-top: 15em;
+  padding-bottom: 2em;
 }
 /*# sourceMappingURL=bundle.css.map */
