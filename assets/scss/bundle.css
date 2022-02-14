@@ -727,6 +727,9 @@ table {
 }
 
 @media screen and (max-width: 760px) {
+  .projects {
+    padding-bottom: 18em;
+  }
   .projects-carousel {
     width: 90%;
   }
@@ -821,7 +824,8 @@ table {
 
 @media screen and (max-width: 760px) {
   .contact {
-    width: 85%;
+    width: 90%;
+    bottom: -175px;
   }
 }
 
@@ -957,6 +961,7 @@ table {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    padding-top: 16em;
   }
   .footer-information {
     margin: 2em 0;
