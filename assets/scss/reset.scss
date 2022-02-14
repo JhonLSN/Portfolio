@@ -8,19 +8,19 @@ $footer-color: hsl(216, 53%, 9%);
 *{
 	box-sizing: border-box;
 
-	// ::-webkit-scrollbar-track {
-	// 	background: #000;
-	// 	transition: all ease .6s;
-	// }
-	// ::-webkit-scrollbar {
-	// 	width: 5px;
-	// 	background: #f4f4f4;
-	// 	transition: all ease .6s;
-	// }
-	// ::-webkit-scrollbar-thumb {
-	// 	background: #bcd4e0;
-	// 	transition: all ease .6s;
-	// }
+	::-webkit-scrollbar-track {
+		background: $primary-color;
+		transition: all ease .6s;
+	}
+	::-webkit-scrollbar {
+		width: 5px;
+		background: #f4f4f4;
+		transition: all ease .6s;
+	}
+	::-webkit-scrollbar-thumb {
+		background: $cyan-color;
+		transition: all ease .6s;
+	}
 
 }
 
