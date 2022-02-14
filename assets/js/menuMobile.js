@@ -17,3 +17,7 @@ btnMobile.addEventListener('click', () => {
     nav.classList.add('active')
   }
 })
+
+function closeMenu() {
+  nav.classList.remove('active')
+}
