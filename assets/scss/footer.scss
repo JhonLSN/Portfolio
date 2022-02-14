@@ -7,7 +7,57 @@
   padding-bottom: 2em;
   color: $white;
 
-  &-nav {
-    
+  &__nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    &__title {
+      font-size: 1.5em;
+      margin-bottom: 20px;
+    }
+
+    &__menu {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      & li {
+        margin-bottom: 10px;
+
+        &:last-child {
+          margin-bottom: 0px;
+        }
+      }
+
+      &-anchor {
+        position: relative;
+        color: $white;
+        text-decoration: none;
+        transition: all ease 0.4s;
+
+        &:hover {
+          color: $cyan-color;
+          transition: all ease 0.4s;
+
+          &::before {
+            width: 100%;
+          }
+        }
+
+        &::before {
+          position: absolute;
+          content: "";
+          width: 0;
+          height: 2px;
+          left: 50%;
+          bottom: -2px;
+          background-color: $cyan-color;
+          transform: translateX(-50%);
+          transition: all ease 0.4s;
+        }
+      }
+    }
   }
 }
