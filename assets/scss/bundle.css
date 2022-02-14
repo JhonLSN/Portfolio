@@ -720,6 +720,12 @@ table {
   margin-top: 0.5em;
 }
 
+@media screen and (max-width: 760px) {
+  .projects-carousel {
+    width: 90%;
+  }
+}
+
 @media screen and (min-width: 1700px) {
   .projects-carousel {
     width: 77%;
@@ -802,6 +808,12 @@ table {
   border: 1px solid #65e2d9;
   -webkit-transition: all ease 0.6s;
   transition: all ease 0.6s;
+}
+
+@media screen and (max-width: 760px) {
+  .contact {
+    width: 85%;
+  }
 }
 
 .footer {
@@ -928,5 +940,33 @@ table {
 .footer-copyright i {
   margin-right: 5px;
   font-size: 1.2em;
+}
+
+@media screen and (max-width: 760px) {
+  .footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer-information {
+    margin: 2em 0;
+  }
+  .footer-information a {
+    margin-bottom: 10px;
+    color: white;
+    text-decoration: none;
+  }
+  .footer-information a:last-child {
+    margin-bottom: 0px;
+  }
+  .footer-information a i {
+    margin-right: 5px;
+    font-size: 1.2em;
+  }
+  .footer-copyright i {
+    margin-right: 5px;
+    font-size: 1.2em;
+  }
 }
 /*# sourceMappingURL=bundle.css.map */
