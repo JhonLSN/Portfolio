@@ -1,9 +1,13 @@
 .header {
+  position: fixed;
+  background: $primary-color;
   display: flex;
   align-items: center;
   justify-content: space-between;
   font-family: "Raleway", sans-serif;
+  width: 100%;
   padding: 20px;
+  z-index: 1000;
 
   &-brand {
     font-size: 1.5em;
@@ -119,8 +123,7 @@
         width: 100%;
         height: 0px;
         right: 0px;
-        background: #1c2431f2;
-        backdrop-filter: blur(10px);
+        background: $primary-color;
         z-index: 1000;
         transition: 0.6s;
         height: 0px;
