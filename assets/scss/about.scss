@@ -46,6 +46,20 @@
   }
 }
 
+@media screen and (max-width: 1200px) {
+  .about {
+    &-description {
+      flex-direction: column;
+
+      &__textBox {
+        & h3 {
+          margin-top: 2em;
+        }
+      }
+    }
+  }
+}
+
 @media screen and (min-width: 1700px) {
   .about {
     &-description {

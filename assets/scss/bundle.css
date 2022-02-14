@@ -83,7 +83,7 @@ table {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   padding: 20px;
 }
 
@@ -132,14 +132,14 @@ table {
   position: relative;
   color: white;
   text-decoration: none;
-  -webkit-transition: all ease .4s;
-  transition: all ease .4s;
+  -webkit-transition: all ease 0.4s;
+  transition: all ease 0.4s;
 }
 
 .header__nav__menu-anchor:hover {
   color: #65e2d9;
-  -webkit-transition: all ease .4s;
-  transition: all ease .4s;
+  -webkit-transition: all ease 0.4s;
+  transition: all ease 0.4s;
 }
 
 .header__nav__menu-anchor:hover::before {
@@ -148,7 +148,7 @@ table {
 
 .header__nav__menu-anchor::before {
   position: absolute;
-  content: '';
+  content: "";
   width: 0;
   height: 2px;
   left: 50%;
@@ -156,8 +156,17 @@ table {
   background-color: #65e2d9;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  -webkit-transition: all ease .4s;
-  transition: all ease .4s;
+  -webkit-transition: all ease 0.4s;
+  transition: all ease 0.4s;
+}
+
+@media screen and (max-width: 760px) {
+  .header__nav__btnMobile {
+    display: block;
+  }
+  .header__nav__menu {
+    display: none;
+  }
 }
 
 .home {
@@ -438,6 +447,18 @@ table {
   border-bottom: 1px solid #65e2d9;
 }
 
+@media screen and (max-width: 1200px) {
+  .about-description {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .about-description__textBox h3 {
+    margin-top: 2em;
+  }
+}
+
 @media screen and (min-width: 1700px) {
   .about-description {
     width: 80%;
@@ -664,6 +685,7 @@ table {
 
 .contact p {
   line-height: 25px;
+  text-align: center;
 }
 
 .contact-connection {
