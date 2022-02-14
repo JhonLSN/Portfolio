@@ -622,6 +622,23 @@ table {
   padding: 20px 44px;
 }
 
+@media screen and (max-width: 760px) {
+  .skills-tools {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .skills-tools__card {
+    background: #1c2431;
+    border: 1px solid #65e2d9;
+  }
+  .skills-tools__card i {
+    color: #65e2d9;
+  }
+}
+
 @media screen and (min-width: 970px) and (max-width: 1300px) {
   .skills-tools {
     width: 80%;
