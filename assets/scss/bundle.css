@@ -161,13 +161,22 @@ table {
 }
 
 @media screen and (max-width: 760px) {
-  .header {
-    border-bottom: 2px solid rgba(101, 226, 217, 0.071);
-  }
   .header__nav.active .header__nav__menu {
     height: calc(100vh - 64px);
     visibility: visible;
-    overflow: auto;
+    overflow: hidden;
+  }
+  .header__nav.active #hamburger {
+    border-top-color: transparent;
+  }
+  .header__nav.active #hamburger::before {
+    -webkit-transform: rotate(135deg);
+            transform: rotate(135deg);
+  }
+  .header__nav.active #hamburger::after {
+    -webkit-transform: rotate(-135deg);
+            transform: rotate(-135deg);
+    top: -7px;
   }
   .header__nav__btnMobile {
     display: block;
@@ -198,7 +207,9 @@ table {
     width: 100%;
     height: 0px;
     right: 0px;
-    background: #1c2431;
+    background: #1c2431f2;
+    -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
     z-index: 1000;
     -webkit-transition: 0.6s;
     transition: 0.6s;
