@@ -6,7 +6,6 @@
   <a href="#hammer-tecnologias">Tecnologias</a>
   &nbsp;&nbsp;&nbsp;
 <p>
-![image](https://user-images.githubusercontent.com/80855598/153921423-ef1d9013-324f-4be6-b6d8-fd3b936423fc.png)
 
 <h1 align="center" display="flex">
   <img src="https://user-images.githubusercontent.com/80855598/153921423-ef1d9013-324f-4be6-b6d8-fd3b936423fc.png" width="80%" alt="Jhonatan Luan" title="Jhonatan Luan">
@@ -15,7 +14,7 @@
 ## :book: Sobre
 Primeiramente, seja bem vindo!
 
-Este é o meu segundo portfólio e provavelmente será o único que irei trabalhar por cima dele. Aqui no GitHub, eiste outro porém deixei ele de lado para ter uma visão diferente. Olhar para o meu antigo portfólio e ver o quanto eu melhorei, mostra que posso melhorar cada vez mais. 
+Este é o meu segundo portfólio e provavelmente será o único que irei trabalhar por cima dele. Aqui no GitHub, existe outro porém deixei ele de lado para ter uma visão diferente. Olhar para o meu antigo portfólio e ver o quanto eu melhorei, mostra que posso melhorar cada vez mais. 
 
 Acesse o antigo portfólio [Clicando Aqui](https://jhonlsn.github.io/My-Web-Page/) 
 
