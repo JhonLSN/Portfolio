@@ -269,6 +269,10 @@ table {
   }
 }
 
+.main {
+  position: relative;
+}
+
 .conduct {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -520,7 +524,8 @@ table {
   border-top: 1px solid rgba(101, 226, 217, 0.071);
   font-family: "Raleway", sans-serif;
   background-color: #181f2a;
-  padding: 2em 0;
+  padding-top: 2em;
+  padding-bottom: 15em;
 }
 
 .projects-title {
@@ -530,7 +535,7 @@ table {
 }
 
 .projects-carousel {
-  width: 70%;
+  width: 82%;
 }
 
 .projects-carousel .item {
@@ -562,5 +567,76 @@ table {
   text-decoration: none;
   border-bottom: 1px solid #65e2d9;
   margin-top: 0.5em;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  padding: 4em;
+  bottom: 0;
+  left: 50%;
+  color: white;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  font-family: "Raleway", sans-serif;
+  background-color: #1c2431;
+}
+
+.contact-title {
+  font-size: 2em;
+  color: #65e2d9;
+  margin-bottom: 1em;
+}
+
+.contact-connection {
+  margin: 1em 0;
+}
+
+.contact-connection__social-media {
+  margin-right: 20px;
+  font-size: 3em;
+  color: #181f2a;
+  -webkit-transition: all ease 0.4s;
+  transition: all ease 0.4s;
+}
+
+.contact-connection__social-media:hover {
+  color: #65e2d9;
+  -webkit-transition: all ease 0.4s;
+  transition: all ease 0.4s;
+}
+
+.contact-connection__social-media:last-child {
+  margin-right: 0;
+}
+
+.contact-cv {
+  background: #181f2a;
+  border: 1px solid #181f2a;
+  color: #65e2d9;
+  text-decoration: none;
+  padding: 1em;
+  border-radius: 10px;
+  -webkit-transition: all ease 0.6s;
+  transition: all ease 0.6s;
+}
+
+.contact-cv:hover {
+  background: #1c2431;
+  border: 1px solid #65e2d9;
+  -webkit-transition: all ease 0.6s;
+  transition: all ease 0.6s;
 }
 /*# sourceMappingURL=bundle.css.map */

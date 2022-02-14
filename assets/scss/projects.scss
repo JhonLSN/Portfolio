@@ -6,7 +6,8 @@
   border-top: 1px solid $row;
   font-family: "Raleway", sans-serif;
   background-color: $secondary-color;
-  padding: 2em 0;
+  padding-top: 2em;
+  padding-bottom: 15em;
 
   &-title {
     font-size: 2em;
@@ -15,7 +16,7 @@
   }
 
   &-carousel {
-    width: 70%;
+    width: 82%;
 
     & .item {
       background: #1c2431;
