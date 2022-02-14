@@ -56,6 +56,10 @@
   .projects {  
     &-carousel {
       width: 90%;
+
+      & .item {
+        width: 336px;
+      }
     }
   }
 }

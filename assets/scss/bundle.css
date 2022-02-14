@@ -724,6 +724,9 @@ table {
   .projects-carousel {
     width: 90%;
   }
+  .projects-carousel .item {
+    width: 336px;
+  }
 }
 
 @media screen and (min-width: 1700px) {
