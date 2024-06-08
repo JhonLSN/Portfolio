@@ -8,7 +8,7 @@
 <p>
 
 <h1 align="center" display="flex">
-  <img src="[[https://user-images.githubusercontent.com/80855598/153921423-ef1d9013-324f-4be6-b6d8-fd3b936423fc.png](https://github.com/JhonLSN/Portfolio/assets/80855598/c58374ae-0349-4df2-a08a-da5bd7c7ba37)]" width="80%" alt="Jhonatan Luan" title="Jhonatan Luan">
+  <img src="https://user-images.githubusercontent.com/80855598/153921423-ef1d9013-324f-4be6-b6d8-fd3b936423fc.png" width="80%" alt="Jhonatan Luan" title="Jhonatan Luan">
 </h1>
 ![image](https://github.com/JhonLSN/Portfolio/assets/80855598/c58374ae-0349-4df2-a08a-da5bd7c7ba37)
 
